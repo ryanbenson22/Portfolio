@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: amaltea;
+    src: url(amaltea.ttf);
+}
+
+@font-face {
+    font-family: apple-garamond;
+    src: url(AppleGaramond.ttf);
+}
+
+@font-face {
+    font-family: apple-garamond-italic;
+    src: url(AppleGaramond-Italic.ttf);
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+@media only screen and (min-width: 600px) {
+body {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+}
+
+body.dark {
+    background:rgb(18, 18, 18);
+}
+
+body.pink {
+    background: rgb(210, 150, 178);
+}
+
+img {
+    max-height: 100vh;
+}
+
+h1 {
+   z-index: 1;
+    top:33px;
+    left:-50px;
+    position:fixed;
+    background-color: none;
+    font-family: amaltea;
+    letter-spacing: -15px;
+    color: rgb(0, 0, 0);
+    font-size: 125px;
+    writing-mode:sideways-lr;
+    text-orientation: mixed
+}
+
+h1.dark {
+    color:white;
+}
+
+h1.pink {
+    color:black;
+}
+
+h2 {
+    font-family: apple-garamond;
+font-size: 24px;
+text-align: justify;
+line-height: 4px;
+}
+
+h2.dark {
+    color:white;
+}
+
+h2.pink {
+    color:black;
+}
+
+p {
+    font-family: apple-garamond-italic;
+    font-size: 18px;
+    text-align: justify;
+    line-height: normal;
+}
+
+p.dark {
+    color:white;
+}
+
+p.pink {
+    color:black;
+}
+
+#stripe {
+    transform: rotate(-90deg);
+    position: fixed;
+    height: 100vh;
+    align-content: left;
+    z-index: 0;
+    top:10px;
+    left:-750px;
+    opacity:1;
+    mix-blend-mode:overlay
+}
+
+#stripe.dark {
+mix-blend-mode: difference;
+}
+
+.new-fac {
+    height: 80vh;
+    max-width: auto;
+    display: inline-block;
+    gap: 50px;
+}
+
+img {
+    height: 80vh;
+}
+
+#blank {
+    width: 30vh;
+}
+
+a:link {
+    color: black;
+}
+
+a:link.dark {
+    color: white;
+}
+
+a:link.pink {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:visited.dark {
+    color: white;
+}
+
+a:visited.pink {
+    color: black;
+}
+
+.dark-btn {
+        -webkit-border-radius: 31;
+        -moz-border-radius: 31;
+        border-radius: 31px;
+        font-family: apple-garamond;
+        color: white;
+        font-size: 12px;
+        padding: 10px 20px 10px 160px;
+        border: solid white 1px;
+        text-decoration: none;
+        background-color: rgb(18, 18, 18);
+}
+
+.dark-btn:hover {
+    text-decoration: none;
+  }
+
+.pink-btn {
+    -webkit-border-radius: 31;
+    -moz-border-radius: 31;
+    border-radius: 31px;
+    font-family: apple-garamond;
+    color: #000000;
+    font-size: 12px;
+    padding: 10px 94px 10px 20px;
+    border: solid #000000 1px;
+    text-decoration: none;
+    background-color: rgb(210, 150, 178);
+}
+
+.pink-btn:hover {
+text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+h1 {
+    writing-mode:horizontal-tb;
+    text-orientation:sideways;
+    font-size: 72px;
+    letter-spacing: -8px;
+    right:0;
+    text-justify:auto;
+    top: 0px;
+    text-align: center;
+}
+
+#stripe { 
+    transform: rotate(360deg);
+    top: -600px;
+    left: -100px;
+    width: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.new-fac {
+    width: 60vh;
+    height: fit-content;
+    display:block;
+    justify-content: center;
+    right:0;
+}
+
+#blank {
+    height: 20vh;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 20px;
+    width: 60vh;
+}
+
+p {
+    font-size: 12px;
+    line-height: normal;
+    width: 60vh;
+    padding-bottom: 50px;
+}
+
+.dark-btn {
+    font-size: 9px;
+        padding: 5px 7px 5px 60px;
+}
+
+.pink-btn {
+    font-size: 9px;
+        padding: 5px 60px 5px 7px;
+}
+
+img {
+    width: 60vh;
+    height: auto;
+}
+
+}

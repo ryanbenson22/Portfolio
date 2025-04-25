@@ -1,0 +1,21 @@
+$(".dark-btn").click(
+    function(){
+    $("body").toggleClass("dark");
+    $("h1").toggleClass("dark");
+    $("h2").toggleClass("dark");
+    $("p").toggleClass("dark");
+    $("a:link").toggleClass("dark");
+    $("a:visited").toggleClass("dark");
+    $("dark-btn").toggleClass("dark");
+    $("pink-btn").toggleClass("dark");
+  });
+
+  $(".pink-btn").click(
+    function(){
+    $("body").toggleClass("pink");
+    $("h1").toggleClass("pink");
+    $("h2").toggleClass("pink");
+    $("p").toggleClass("pink");
+    $("a:link").toggleClass("pink");
+    $("a:visited").toggleClass("pink");
+  });
