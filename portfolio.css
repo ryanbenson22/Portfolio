@@ -186,7 +186,7 @@ text-decoration: none;
 h1 {
     writing-mode:horizontal-tb;
     text-orientation:sideways;
-    font-size: 72px;
+    font-size: 60px;
     letter-spacing: -8px;
     right:0;
     text-justify:auto;
@@ -208,7 +208,7 @@ body {
 }
 
 .new-fac {
-    width: 95vw;
+    width: 80vw;
     height:auto;
     display:block;
     justify-content: center;
@@ -224,13 +224,13 @@ body {
 h2 {
     font-size: 20px;
     line-height: 20px;
-    width: 60vw;
+    width: 80vw;
 }
 
 p {
     font-size: 12px;
     line-height: normal;
-    width: 60vw;
+    width: 80vw;
     padding-bottom: 50px;
 }
 
@@ -245,7 +245,7 @@ p {
 }
 
 img {
-    width: 95vw;
+    width: 80vw;
     height: auto;
 }
 
