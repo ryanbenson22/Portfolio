@@ -186,7 +186,7 @@ text-decoration: none;
 h1 {
     writing-mode:horizontal-tb;
     text-orientation:sideways;
-    font-size: 48px;
+    font-size: 52px;
     letter-spacing: -8px;
     right:0;
     text-justify:auto;
@@ -218,7 +218,7 @@ body {
 }
 
 #blank {
-    height: 30vh;
+    height: 25vh;
 }
 
 h2 {
