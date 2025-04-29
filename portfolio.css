@@ -192,6 +192,8 @@ h1 {
     text-justify:auto;
     top: 0px;
     text-align: center;
+    place-self: center;
+    place-items: center;
 }
 
 #stripe { 
@@ -206,27 +208,29 @@ body {
 }
 
 .new-fac {
-    width: 60vh;
+    width: 95vw;
     height: fit-content;
     display:block;
     justify-content: center;
     right:0;
+    place-self: center;
+    place-items: center;
 }
 
 #blank {
-    height: 20vh;
+    height: 20vw;
 }
 
 h2 {
     font-size: 20px;
     line-height: 20px;
-    width: 60vh;
+    width: 60vw;
 }
 
 p {
     font-size: 12px;
     line-height: normal;
-    width: 60vh;
+    width: 60vw;
     padding-bottom: 50px;
 }
 
@@ -241,7 +245,7 @@ p {
 }
 
 img {
-    width: 60vh;
+    width: 95vw;
     height: auto;
 }
 

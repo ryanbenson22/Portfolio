@@ -19,3 +19,19 @@ $(".dark-btn").click(
     $("a:link").toggleClass("pink");
     $("a:visited").toggleClass("pink");
   });
+
+  $(document).ready(function () {
+  // In order for this to work, the page contents need to be wrapped in a container other than just the body
+  $(".scroll-container").on("wheel", function (e) {
+    const delta = Math.max(
+      -1,
+      Math.min(1, e.originalEvent.wheelDelta || -e.originalEvent.detail)
+    );
+
+    this.scrollLeft -= delta * 40;
+    // Adjust 40 to change scroll speed
+
+    // This prevents vertical scrolling
+    e.preventDefault();
+  });
+});
