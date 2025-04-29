@@ -209,7 +209,7 @@ body {
 
 .new-fac {
     width: 95vw;
-    height: fit-content;
+    height:auto;
     display:block;
     justify-content: center;
     right:0;
